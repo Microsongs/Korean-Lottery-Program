@@ -52,8 +52,14 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lottery.cs" />
+    <Compile Include="LotteryGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +68,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +82,147 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\coin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\goldcoin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Lotteryballs\45.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
